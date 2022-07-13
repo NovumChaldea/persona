@@ -47,12 +47,11 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     text-justify:inter-word;
     padding: auto;
     width: 70%;
-    
+    font-style: italic;
     color: white;
-    
-    
 }
 
 .littleText{
-
+    color: white;
+    text-decoration:underline;
 }
