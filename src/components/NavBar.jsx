@@ -10,9 +10,9 @@ const NavBar = () => {
                 <VscSettingsGear className={styles.heartIcon}/>
             </div>
             <div className={styles.right}>
-                <h3>About Me</h3>
-                <h3>Projects</h3>
-                <h3>Contact!</h3>
+                <h3 className={styles.navPoint}>About Me</h3>
+                <h3 className={styles.navPoint}>Projects</h3>
+                <h3 className={styles.navPoint}>Contact!</h3>
             </div>
         </div>
         
