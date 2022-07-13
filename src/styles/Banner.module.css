@@ -33,7 +33,9 @@
     text-justify:inter-word;
     padding: auto;
     width: 70%;
+    opacity: 0.5;
     color: white;
+    
 }
 
 .littleText{
