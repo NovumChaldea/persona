@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import styles from '../styles/Banner.module.css';
 
 const Banner = () => {
   return (
-    <div>Banner</div>
+    <div className={styles.background}>
+      asdasdas
+    </div>
   )
 }
 
