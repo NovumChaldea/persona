@@ -6,7 +6,7 @@ import About  from './components/About';
 import Carousel from './components/Carousel';
 import Contact from './components/Contact';
 
-import styles from './styles/App.module.css'
+import styles from './styles/App.module.css';
 
 
 const App = () => {
@@ -20,6 +20,6 @@ const App = () => {
       <Footer/>
     </div>
   )
-}
+};
 
-export default App
+export default App;
