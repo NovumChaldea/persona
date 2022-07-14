@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment } from 'react';
 
 const About = () => {
   return (
@@ -12,7 +12,7 @@ const About = () => {
         <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, saepe id! Eos, possimus quisquam quibusdam incidunt quae facilis consequatur assumenda saepe delectus, exercitationem, optio necessitatibus suscipit fugit ab cum! Maxime.</h3>
       </div>
     </Fragment>
-  )
-}
+  );
+};
 
-export default About
+export default About;
