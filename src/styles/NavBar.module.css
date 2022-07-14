@@ -6,7 +6,8 @@
 }
 
 .heartIcon{
-    color: cadetblue;
+    color: rgb(255, 255, 255);
+    opacity: 0;
     font-size: 50px;
     top: 50%;
     left: 50%;
@@ -29,11 +30,19 @@
     } 
 }
 
+.heartIcon:hover{
+    transition: 2s;
+    opacity: 1;
+    cursor: grab;
+}
+
 .right{
     display: flex;
     flex-direction: row;
-    color: brown;
+    color: rgb(255, 255, 255);
 }
+
+
 .navPoint{
     padding: 0px 10px 10px 10px;
 }
