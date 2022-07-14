@@ -1,18 +1,18 @@
-import React, {Fragment} from 'react';
+import React  from 'react';
 import NavBar from './components/NavBar';
 import Banner from './components/Banner';
 import Footer from './components/Footer';
 
-import './styles/App.css'
+import styles from './styles/App.module.css'
 
 
 const App = () => {
   return (
-    <Fragment>
+    <div className={styles.background}>
       <NavBar/>
       <Banner/>
       <Footer/>
-    </Fragment>
+    </div>
   )
 }
 
