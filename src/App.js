@@ -16,8 +16,8 @@ const App = () => {
       <Banner/>
       <About/>
       <Carousel/>
-      <Footer/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }
