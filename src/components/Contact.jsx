@@ -7,7 +7,7 @@ const Contact = () => {
     <div className={styles.structure}>
       <h1>My plataforms</h1>
       <div className={styles.icons}>
-        <BsGithub/>
+        <BsGithub className={styles.github}/>
         <BsFacebook/>
         <BsWhatsapp/>
         <BsReddit/>
