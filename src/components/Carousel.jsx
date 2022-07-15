@@ -5,10 +5,9 @@ const Carousel = () => {
   return (
     <Fragment>
       <div className={styles.container}>
-        <h1>Projects</h1>
-        <div>Here be a Carousel</div>
+        <h1 className={styles.title}>Projects</h1>
+        <div className={styles.carouselContainer}>Here be a Carousel</div>
       </div>
-      
     </Fragment>
   )
 }
