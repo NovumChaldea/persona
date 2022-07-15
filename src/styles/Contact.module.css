@@ -6,6 +6,11 @@
     padding: 50px;
 }
 
+.title{
+    color: white;
+    font-size: 50px;
+}
+
 .icons{
     display: flex;
     flex-direction: row;
@@ -16,14 +21,17 @@
 }
 .github{
     padding-right: 100px;
+    cursor: grab;
 }
 .github:hover{
     color:#c9510c;
     transition: 1s;
+    
 }
 
 .facebook{
     padding-right: 100px;
+    cursor: grab;
 }
 .facebook:hover{
     color:#3b5998;
@@ -32,12 +40,15 @@
 
 .whatsapp{
     padding-right: 100px;
+    cursor: grab;
 }
 .whatsapp:hover{
     color:#128C7E;
     transition: 1s;
 }
-
+.reddit{
+    cursor: grab;
+}
 .reddit:hover{
     color:#FF4500;
     transition: 1s;

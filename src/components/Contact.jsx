@@ -5,7 +5,7 @@ import { BsGithub, BsFacebook, BsWhatsapp, BsReddit } from 'react-icons/bs';
 const Contact = () => {
   return (
     <div className={styles.structure}>
-      <h1>My plataforms</h1>
+      <h1 className={styles.title}>My plataforms</h1>
       <div className={styles.icons}>
         <BsGithub className={styles.github}/>
         <BsFacebook className={styles.facebook}/>
