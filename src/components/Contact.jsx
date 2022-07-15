@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles/Contact.module.css';
-import { BsGithub } from 'react-icons/bs';
+import { BsGithub, BsFacebook, BsWhatsapp, BsReddit } from 'react-icons/bs';
 
 const Contact = () => {
   return (
@@ -8,6 +8,9 @@ const Contact = () => {
       <h1>My plataforms</h1>
       <div className={styles.icons}>
         <BsGithub/>
+        <BsFacebook/>
+        <BsWhatsapp/>
+        <BsReddit/>
       </div>
     </div>
   )
