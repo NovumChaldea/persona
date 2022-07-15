@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px;
 }
 
 .icons{
@@ -10,20 +11,34 @@
     flex-direction: row;
     align-items: center;
     color:white;
+    font-size: 1000%;
+    padding-top: 40px;
 }
-
+.github{
+    padding-right: 100px;
+}
 .github:hover{
     color:#c9510c;
+    transition: 1s;
 }
 
+.facebook{
+    padding-right: 100px;
+}
 .facebook:hover{
     color:#3b5998;
+    transition: 1s;
 }
 
+.whatsapp{
+    padding-right: 100px;
+}
 .whatsapp:hover{
-    color:#128C7E
+    color:#128C7E;
+    transition: 1s;
 }
 
 .reddit:hover{
-    color:#FF4500
+    color:#FF4500;
+    transition: 1s;
 }

@@ -8,9 +8,9 @@ const Contact = () => {
       <h1>My plataforms</h1>
       <div className={styles.icons}>
         <BsGithub className={styles.github}/>
-        <BsFacebook/>
-        <BsWhatsapp/>
-        <BsReddit/>
+        <BsFacebook className={styles.facebook}/>
+        <BsWhatsapp className={styles.whatsapp}/>
+        <BsReddit className={styles.reddit}/>
       </div>
     </div>
   )
