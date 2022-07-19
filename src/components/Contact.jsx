@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../styles/Contact.module.css';
 import { BsGithub, BsFacebook, BsWhatsapp, BsReddit } from 'react-icons/bs';
+//The Contact Whatsapp icon must redirect to the "Send a message" option re-linked to my phone number
 
 const Contact = () => {
   return (
