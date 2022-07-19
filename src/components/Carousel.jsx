@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react';
 import styles from '../styles/Carousel.module.css';
+//The carousel need to be reactive and in a loop
+//The carousel´s section must be wide and centric
 
 const Carousel = () => {
   return (
