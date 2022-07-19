@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import { VscSettingsGear } from 'react-icons/vsc';
 import styles from '../styles/NavBar.module.css';
+//The navBar must redirect to the specific section touched
 
 const NavBar = () => {
   return (
