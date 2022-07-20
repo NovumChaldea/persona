@@ -10,8 +10,8 @@ import FlechaDerecha from '../assets/iconmonstr-angel-right-thin.svg'
 const Slideshow = () => {
   return (
     <div>
-        <div>
-            <a href="https://www.google.com">
+        <div className={styles.container}>
+            <a href="https://www.google.com" className={styles.slide}>
                 <img src={img1} alt="" />
             </a>
         </div>

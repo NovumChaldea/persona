@@ -18,3 +18,12 @@ main{
     width: 10%;
     height: 10%;
 }
+
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.slide{
+    min-width: 100%;
+}
