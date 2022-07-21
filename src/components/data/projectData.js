@@ -7,12 +7,14 @@ const projectsData = {
             live: ''
         }
     },
-    project2 :{
+    project1 :{
         projectImg :'dummy img url',
         projectText: 'dummy text',
         projectLinks :{
             github:'',
             live: ''
         }
-    
-}
+    }
+};
+
+export default projectsData;
